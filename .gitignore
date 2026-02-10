@@ -1,0 +1,144 @@
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+# =========================
+# Datasets (your project)
+# =========================
+# Ignore everything in /data (raw + processed + historical + ancillary)
+data/
+
+# If you *ever* want to keep the folder structure but not files, use instead:
+# data/**
+# !data/.gitkeep
+
+# =========================
+# Large generated outputs in root
+# =========================
+model_dataset.csv
+baseline_model.joblib
+.cache.sqlite
+
+# =========================
+# Common data/model file types (extra safety)
+# =========================
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.joblib
+
+# DB / sqlite / geospatial / large binaries
+*.db
+*.sqlite
+*.sqlite3
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.tif
+*.tiff
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+# =========================
+# Notebooks + Python junk
+# =========================
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# =========================
+# Dotenv / secrets
+# =========================
+.env
+.env.* 
+
+# =========================
+# Data, rasters and large datasets
+# =========================
+data/
+data/*
+
+# =========================
+# Common raster / GIS files
+# =========================
+*.tif
+*.tiff
+*.img
+*.vrt
+*.jp2
+*.shp
+*.shx
+*.dbf
+*.prj
+*.qix
+*.gpkg
+*.geojson
+*.topojson
+
+# =========================
+# Databases and caches
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+cache.sqlite
+cache.db
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# Testing / build
+# =========================
+.pytest_cache/
+build/
+dist/
+eggs/
+*.egg-info/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE/editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS artifacts
+# =========================
+.DS_Store
+Thumbs.db

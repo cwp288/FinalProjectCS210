@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+joblib
+sqlalchemy
+matplotlib
+xgboost
+geopandas
+rasterio
+rasterstats
+requests
+python-dotenv
